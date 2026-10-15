@@ -1,0 +1,58 @@
+{
+ "pantalones": [
+ {
+ "id": "1r1g",
+ "nombre": "Jeans Clásico 501",
+ "precio": 79.99,
+ "isInStore": true,
+ "talle": "XS",
+ "corte": "Recto",
+ "descripcion": "Tela denim pesada, 100% algodón. Clásico atemporal."
+ },
+ {
+ "id": "1p2l",
+ "nombre": "Pantalón Chino Delgado",
+ "precio": 55.5,
+ "isInStore": true,
+ "talle": "M",
+ "corte": "Slim",
+ "descripcion": "Ideal para oficina o eventos casuales. Disponible en varios colores."
+ },
+ {
+ "nombre": "Jogger Deportivo",
+ "precio": 45,
+ "isInStore": false,
+ "talle": "L",
+ "corte": "Jogger",
+ "descripcion": "Material sintético con tecnología de secado rápido. Agotado en color negro, solo queda en gris.",
+ "id": "k03u"
+ },
+ {
+ "nombre": "Pantalón Cargo Urbano",
+ "precio": 65,
+ "isInStore": true,
+ "talle": "XL",
+ "corte": "Cargo",
+ "descripcion": "Estilo 'baggy' con múltiples bolsillos funcionales. Tela resistente, color verde militar.",
+ "id": "j84s"
+ },
+ {
+ "id": "zxk8",
+ "nombre": "Legging Básico Algodón",
+ "precio": 29.99,
+ "isInStore": true,
+ "talle": "S",
+ "corte": "Skinny",
+ "descripcion": "Tejido elástico de alta densidad. Comodidad máxima para uso diario."
+ },
+ {
+ "id": "pg35",
+ "nombre": "Pantalón de Vestir Lanilla",
+ "precio": 95.75,
+ "isInStore": false,
+ "talle": "S",
+ "corte": "Slim",
+ "descripcion": "Tiro medio. Ideal para ocasiones formales. Requiere limpieza en seco."
+ }
+ ]
+}
