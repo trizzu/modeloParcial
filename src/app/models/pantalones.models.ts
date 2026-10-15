@@ -7,7 +7,16 @@ export interface Pantalon {
     nombre : string,
     precio : number,
     talle : Talle,
-    corte : Corte
-    descripcion : string
+    corte : Corte,
+    descripcion : string,
+    isInStore : boolean
 }
 
+export interface PantalonForm {
+    nombre : string,
+    precio : number,
+    talle : Talle,
+    corte : Corte,
+    descripcion : string,
+    isInStore : boolean
+}

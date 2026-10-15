@@ -1,6 +1,6 @@
   import { Injectable, inject } from '@angular/core';
   import { HttpClient } from '@angular/common/http';
-  import { Pantalon } from '../models/pantalones.models';
+  import { Pantalon, PantalonForm } from '../models/pantalones.models';
 
   @Injectable({
     providedIn: 'root',
@@ -18,15 +18,15 @@ export class PantalonService {
     return this.http.get<Pantalon>(`${this.url}/${id}`);
   }
 
-  addProduct(newProduct: Pantalon) {
+  addProduct(newProduct: PantalonForm) {
     return this.http.post<Pantalon>(this.url, newProduct);
   }
 
-  editProduct(edittedProduct: Pantalon, id: string | number) {
+  editProduct(edittedProduct: PantalonForm, id: string) {
     return this.http.put<Pantalon>(`${this.url}/${id}`, edittedProduct);
   }
 
-  deleteProduct(id: string | number) {
+  deleteProduct(id: string) {
     return this.http.delete<void>(`${this.url}/${id}`);
   }
 
